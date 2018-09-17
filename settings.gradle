@@ -1,0 +1,6 @@
+rootProject.name = 'parent'
+include 'intf'
+include 'providers'
+include 'functions'
+include 'delivery'
+

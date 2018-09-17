@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+group 'com.test'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(":intf")
+}

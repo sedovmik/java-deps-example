@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    implementation project(':intf')
+    implementation project(':providers')
+    implementation project(':functions')
+
+    testImplementation 'junit:junit:4.12'
+}
